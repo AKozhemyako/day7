@@ -10,7 +10,8 @@
 	<h1>Добавим видео на наш сайт</h1>
 	<p>Video должно распологаться в каталоге с нашим сайтом и иметь 3 формата</p>
 	<p>mp4, ogv, webm</p>
-	<video controls="controls" width="400" height="300">
+	<p>Параметер loop нужен просто  для нерестанного воспроизведения по кругу</p>
+	<video controls width="400" height="300" loop="loop">
 		<source src="video/somevideo.mp4" />
 		<source src="video/somevideo.ogv" />
 		<source src="video/somevideo.webm" />
@@ -18,11 +19,13 @@
 	<h2>Добавим аудио файлы</h2>
 	<p>Аудио файлы также должны располагаться с нашим сайтом в одном каталоге и иметь 4 формата.</p>
 	<p>ogg, mp3, wav, aac</p>
-	<audio controls="controls" width="400" height="300">
+	<p>Параметер loop нужен просто  для нерестанного воспроизведения по кругу</p>
+	<audio controls="controls" width="400" height="300" loop="loop">
 		<source src="audio/someaudio.mp3" />
 		<source src="audio/someaudio.wav" />
 		<source src="audio/someaudio.ogg" />
 		<source src="audio/someaudio.aac" />
-	</audio>	
+	</audio>
+	<p>Для более глубокого изучения JavaScript советую взглянуть на <cite>"Вы не знаете JS"</cite> Кайла Симпсона.</p>	
 </body>
 </html>
